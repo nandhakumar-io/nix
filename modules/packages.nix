@@ -1,0 +1,74 @@
+{ config, pkgs, ...}: 
+
+{
+    environment.SystemPackages = with pkgs; [
+        neovim
+        wget
+        htop
+        yazi
+        kitty
+        rofi
+        zsh
+        tmux
+        starship
+        dunst
+        fzf
+        unzip
+        wireguard-tools
+        bat
+        eza
+        git 
+        fd 
+        cliphist
+        libnotify
+        mako
+        nodejs
+        rclone
+        wl-clipboard 
+        wtype
+        grimblast
+        swappy
+        brightnessctl
+        wireplumber
+        whitesur-icon-theme
+        tailscale
+        ripgrep
+        gcc 
+        clang
+        cmake 
+        gnumake
+        pkg-config
+        binutils
+        wireshark
+        tcpdump
+        bind
+        mtr 
+        iperf3 
+        mariadb.client
+        postgresql
+        nmap
+        gns3-server
+        dynamips
+        vpcs
+        wireshark 
+        ubridge
+        python3
+        python3Packages.pip 
+        stdenv.cc.cc.lib 
+        gns3-gui
+        libreoffice
+        tigervnc 
+        nfs-utils 
+        cloudflared 
+        usbutils 
+        fprintd 
+        screen 
+        rsyslog 
+        vlc 
+        vscode
+        ];
+
+
+        ]
+
+    }
