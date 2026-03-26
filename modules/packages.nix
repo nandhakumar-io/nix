@@ -21,7 +21,11 @@
         fd 
         cliphist
         libnotify
-        mako
+        hypridle
+        hyprlock
+        hyprpaper
+        hyprpicker
+        swww
         nodejs
         rclone
         wl-clipboard 
