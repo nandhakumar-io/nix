@@ -10,3 +10,4 @@
 		../../modules/fonts.nix
 		../../modules/networking.nix
 		];
+	}
