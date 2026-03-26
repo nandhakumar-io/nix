@@ -24,4 +24,7 @@
   security.sudo.wheelNeedsPassword = false;
 
   system.stateVersion = "25.11";
+
+boot.loader.systemd-boot.enable = true;
+boot.loader.efi.canTouchEfiVariables = true;
 }
