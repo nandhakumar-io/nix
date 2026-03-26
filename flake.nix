@@ -8,7 +8,7 @@
     };
 
     outputs = { self, nixpkgs, home-manager}: {
-        nixConfigurations.AsusVivobookS15 = nixpkgs.lib.nixosSystem {
+        nixosConfigurations.AsusVivobookS15 = nixpkgs.lib.nixosSystem {
                 system = "x86_64-linux";
                 
                 modules = [
