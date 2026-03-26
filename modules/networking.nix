@@ -11,7 +11,7 @@ networking.hostName = "kenpachi";
  ];
 
  networking.firewall = {
-     enablle = true;
+     enable = true;
 
      allowedTCPPorts = [ 2222 80 443 514];
 

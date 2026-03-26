@@ -4,10 +4,6 @@
   programs = {
     firefox.enable = true;
     zsh.enable = true;
-    zoxide = {
-      enable = true;
-      enableZshIntegration = true;
-    };
 
     thunar.enable = true;
     hyprland.enable = true;

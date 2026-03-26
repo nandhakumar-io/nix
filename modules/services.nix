@@ -46,20 +46,22 @@
     ];
   };
 
+  networking.firewall.allowedUDPPorts = [ 51820 ];
+
   # Docker & VM
   virtualisation.docker.enable = true;
   virtualisation.libvirtd.enable = true;
   programs.virt-manager.enable = true;
 
-  # Audio
-  services.pulseaudio.enable = false;
+  # Audio (FIXED)
   security.rtkit.enable = true;
 
   services.pipewire = {
     enable = true;
+    audio.enable = true;
+    pulse.enable = true;
     alsa.enable = true;
     alsa.support32Bit = true;
-    pulse.enable = true;
   };
 
   # Custom services
@@ -78,7 +80,7 @@
 
     serviceConfig = {
       Type = "oneshot";
-      ExecStart = "/home/kenpachi-zaraki/backup.sh";
+      ExecStart = "/home/kenpachi-zaraki/.config/scripts/backup.sh";
     };
   };
 
@@ -90,8 +92,9 @@
       Persistent = true;
     };
   };
-   
-services.xserver.enable = true;
-services.displayManager.sddm.enable = true;
-services.desktopManager.plasma6.enable = true;
+
+  # Display
+  services.xserver.enable = true;
+  services.displayManager.sddm.enable = true;
+  services.desktopManager.plasma6.enable = true;
 }

@@ -1,7 +1,7 @@
 { config, pkgs, ...}: 
 
 {
-    environment.SystemPackages = with pkgs; [
+    environment.systemPackages = with pkgs; [
         neovim
         wget
         htop
@@ -67,8 +67,5 @@
         vlc 
         vscode
         ];
-
-
-        ]
 
     }

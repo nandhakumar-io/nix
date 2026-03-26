@@ -1,4 +1,4 @@
-{ config, pkkgs }: {
+{ config, pkgs, ... }: {
     users.users.kenpachi-zaraki = {
         isNormalUser =  true;
         description  ="kenpachi-Zaraki";
@@ -8,8 +8,7 @@
 
             # thunderbird
         ];
-        shell  = pkgs.zsh
-    }
+        shell  = pkgs.zsh;
     };
 
     users.users.nandha = {
@@ -19,6 +18,6 @@
         packages = with pkgs; [
         kdePackages.kate 
         ];
-        shell  = pkgs.zsh
+        shell  = pkgs.zsh;
     };
 }
