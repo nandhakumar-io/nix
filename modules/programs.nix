@@ -14,9 +14,9 @@
 
   programs.nix-ld.libraries = with pkgs; [
     stdenv.cc.cc zlib glib nss nspr
-    xorg.libX11 xorg.libXext xorg.libXrender xorg.libxcb
-    xorg.libXrandr xorg.libXi xorg.libXtst xorg.libXcursor
-    xorg.libXcomposite xorg.libXdamage xorg.libXfixes
+    libx11 libxext libxrender libxcb
+    libxrandr libxi libxtst libxcursor
+    libxcomposite libxdamage libxfixes
     libxkbcommon alsa-lib libpulseaudio gtk3 fuse2
   ];
 }

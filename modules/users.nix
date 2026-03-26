@@ -1,5 +1,5 @@
 { config, pkgs, ... }: {
-    users.users.kenpachi-zaraki = {
+    users.users."kenpachi-zaraki" = {
         isNormalUser =  true;
         description  ="kenpachi-Zaraki";
         extraGroups = [ "networkmanager" "wheel" "docker" "wireshark"];

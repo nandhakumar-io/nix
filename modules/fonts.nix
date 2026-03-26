@@ -1,10 +1,7 @@
 { config, pkgs, ... }: {
-    fonts.packages  = with pkgs; [
-        jetbrains-mono 
-        noto-fonts
-        nerd-fonts.jetbrains-mono 
-        nerd-fonts.caskaydia-cove
-        noto-fonts-color-emoji
-
+    fonts.packages = [
+        pkgs.jetbrains-mono
+        pkgs.noto-fonts
+        pkgs.noto-fonts-color-emoji
     ];
-    }
+}

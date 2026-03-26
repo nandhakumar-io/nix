@@ -32,6 +32,8 @@
 
   programs.bat.enable = true;
 
+  services.dunst.enable = true;
+
 
 
   xdg.configFile."dunst".source = ./config/dunst;

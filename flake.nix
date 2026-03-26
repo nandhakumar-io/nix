@@ -18,8 +18,9 @@
                      {
                         home-manager.useGlobalPkgs = true;
                         home-manager.useUserPackages = true;
+                        home-manager.backupFileExtension = "hm-bak";
 
-                        home-manager.users.kenpachi-zaraki =
+                        home-manager.users."kenpachi-zaraki" =
                         import ./home/kenpachi/home.nix;
   }
                 ];
