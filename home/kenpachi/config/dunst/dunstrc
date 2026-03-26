@@ -1,0 +1,24 @@
+[global]
+font =  JetBrainsMono Nerd Font 16
+markup = full 
+format = "\n<b>%s</b>%b"
+alignment = center
+origin = bottom-center
+offset = (0, 80)
+padding = 20
+corner_radius = 10
+frame_width = 0
+transparency = 10
+frame_color = "#7aa2f700"
+background = "#1a1b26"
+width = (450, 550)
+foreground = "#c0caf5"
+max_icon_size = 120
+separator_height = 10
+#exec = paplay /home/kabil/Downloads/confident-543.mp3
+line_height = 3
+
+[rule]
+appname = "Spotify"
+format = ""
+timeout = 1
