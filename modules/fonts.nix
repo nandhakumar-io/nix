@@ -3,7 +3,7 @@
         jetbrains-mono 
         noto-fonts
         nerd-fonts.jetbrains-mono 
-        nerd-fonts.caskayadi-cove
+        nerd-fonts.caskaydia-cove
         noto-fonts-color-emoji
 
     ];
