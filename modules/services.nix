@@ -46,6 +46,9 @@
     ];
   };
 
+    # Enable Bluetooth GUI 
+    #services.blueman.enable = true;
+
   networking.firewall.allowedUDPPorts = [ 51820 ];
 
   # Docker & VM
