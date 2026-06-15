@@ -3,6 +3,24 @@
   home.homeDirectory = "/home/kenpachi-zaraki";
   home.stateVersion = "24.05";
 
+  home.packages = with pkgs; [
+  
+  # ✅ Proper Python environment with pygame
+  (python313.withPackages (ps: with ps; [
+    pygame
+  ]))
+
+  # ✅ REQUIRED runtime libs (force availability)
+  zlib
+  libGL
+  SDL2
+  SDL2_image
+  SDL2_mixer
+  SDL2_ttf
+  freetype
+  fontconfig
+];
+
   programs.zsh.enable = true;
 
   programs.kitty.enable = true;

@@ -2,6 +2,17 @@
 
 {
     environment.systemPackages = with pkgs; [
+         python313
+        python313Packages.pygame
+
+        # Required libraries for pygame
+        samba
+        wakeonlan
+        zlib
+        SDL2
+        SDL2_image
+        SDL2_mixer
+        SDL2_ttf
         neovim
         wget
         htop
@@ -70,6 +81,10 @@
         rsyslog 
         vlc 
         vscode
+        jdk
+	    linphone
+        jetbrains.idea-oss
+        spotify
         ];
 
     }

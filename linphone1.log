@@ -1,0 +1,245 @@
+2026-06-03 13:51:03:132 [linphone/app] DEBUG linphone thread is QThread(0x559057ee85e0)
+2026-06-03 13:51:03:133 [linphone/liblinphone] MESSAGE Using (r/w) config information from /home/kenpachi-zaraki/.config/linphone/linphonerc
+2026-06-03 13:51:03:133 [linphone/liblinphone] MESSAGE Reading config information from /nix/store/fvkdpg5il6qzajm6xfdgasyqgkb2s637-linphone-desktop-6.1.0/share/linphone/linphonerc-factory
+2026-06-03 13:51:03:135 [linphone/liblinphone] MESSAGE Initializing LinphoneCore 5.4.0
+2026-06-03 13:51:03:135 [linphone/liblinphone] MESSAGE Sal nat helper [enabled]
+2026-06-03 13:51:03:136 [linphone/mediastreamer] MESSAGE Mediastreamer2 factory 5.4.0 (git: unknown) initialized.
+2026-06-03 13:51:03:136 [linphone/mediastreamer] MESSAGE CPU count set to 20
+2026-06-03 13:51:03:136 [linphone/mediastreamer] MESSAGE ms_factory_init() done: platform_tags=linux,x86,desktop
+2026-06-03 13:51:03:136 [linphone/mediastreamer] MESSAGE srtp init
+2026-06-03 13:51:03:138 [linphone/mediastreamer] MESSAGE Registering all soundcard handlers
+2026-06-03 13:51:03:138 [linphone/mediastreamer] MESSAGE New PulseAudio context state: PA_CONTEXT_CONNECTING
+2026-06-03 13:51:03:138 [linphone/mediastreamer] MESSAGE New PulseAudio context state: PA_CONTEXT_AUTHORIZING
+2026-06-03 13:51:03:139 [linphone/mediastreamer] MESSAGE New PulseAudio context state: PA_CONTEXT_SETTING_NAME
+2026-06-03 13:51:03:142 [linphone/mediastreamer] MESSAGE New PulseAudio context state: PA_CONTEXT_READY
+2026-06-03 13:51:03:143 [linphone/mediastreamer] MESSAGE Card 'PulseAudio: Alder Lake PCH-P High Definition Audio Controller HDMI / DisplayPort 3 Output [Unknown]' added with capabilities [playback]
+2026-06-03 13:51:03:143 [linphone/mediastreamer] MESSAGE Card 'PulseAudio: Alder Lake PCH-P High Definition Audio Controller HDMI / DisplayPort 2 Output [Unknown]' added with capabilities [playback]
+2026-06-03 13:51:03:143 [linphone/mediastreamer] MESSAGE Card 'PulseAudio: Alder Lake PCH-P High Definition Audio Controller HDMI / DisplayPort 1 Output [Unknown]' added with capabilities [playback]
+2026-06-03 13:51:03:143 [linphone/mediastreamer] MESSAGE Card 'PulseAudio: Alder Lake PCH-P High Definition Audio Controller Speaker [Unknown]' added with capabilities [playback]
+2026-06-03 13:51:03:143 [linphone/mediastreamer] MESSAGE Card 'PulseAudio: Alder Lake PCH-P High Definition Audio Controller Digital Microphone [Unknown]' added with capabilities [capture]
+2026-06-03 13:51:03:143 [linphone/mediastreamer] MESSAGE Registering all webcam handlers
+2026-06-03 13:51:03:143 [linphone/mediastreamer] MESSAGE Webcam V4L2: /dev/video0 added
+2026-06-03 13:51:03:143 [linphone/mediastreamer] MESSAGE [MSV4l2] Ignored /dev/video1, not a capture device.
+2026-06-03 13:51:03:143 [linphone/mediastreamer] MESSAGE Webcam StaticImage: Static picture added
+2026-06-03 13:51:03:143 [linphone/mediastreamer] MESSAGE ms_factory_init_voip() done
+2026-06-03 13:51:03:143 [linphone/mediastreamer] MESSAGE Loading ms plugins from [/nix/store/fvkdpg5il6qzajm6xfdgasyqgkb2s637-linphone-desktop-6.1.0/lib/mediastreamer/plugins]
+2026-06-03 13:51:03:143 [linphone/mediastreamer] MESSAGE Loading plugin /nix/store/fvkdpg5il6qzajm6xfdgasyqgkb2s637-linphone-desktop-6.1.0/lib/mediastreamer/plugins/libmsopenh264.so...
+2026-06-03 13:51:03:146 [linphone/bctbx] MESSAGE msopenh264-1.2.1 plugin registered.
+2026-06-03 13:51:03:146 [linphone/mediastreamer] MESSAGE Plugin loaded (libmsopenh264.so)
+2026-06-03 13:51:03:146 [linphone/mediastreamer] MESSAGE Loading plugin /nix/store/fvkdpg5il6qzajm6xfdgasyqgkb2s637-linphone-desktop-6.1.0/lib/mediastreamer/plugins/libmsqogl.so...
+2026-06-03 13:51:03:146 [linphone/mediastreamer] MESSAGE libmsqogl debug plugin loaded
+2026-06-03 13:51:03:146 [linphone/mediastreamer] MESSAGE Plugin loaded (libmsqogl.so)
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Core callbacks [0x7f98400bb250] registered on core [0x7f9840006620]
+2026-06-03 13:51:03:146 [linphone/ortp] MESSAGE oRTP-5.4.0 initialized with Atomic protection.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec opus/48000 fmtp=[useinbandfec=1] number=-1, default enablement: 1) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec SILK/16000 fmtp=[] number=-1, default enablement: 1) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec speex/16000 fmtp=[vbr=on] number=-1, default enablement: 1) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec speex/8000 fmtp=[vbr=on] number=-1, default enablement: 1) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec PCMU/8000 fmtp=[] number=0, default enablement: 1) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec PCMA/8000 fmtp=[] number=8, default enablement: 1) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec red/1000 fmtp=[] number=-1, default enablement: 1) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec t140/1000 fmtp=[] number=-1, default enablement: 1) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec GSM/8000 fmtp=[] number=3, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec G722/8000 fmtp=[] number=9, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec iLBC/8000 fmtp=[mode=30] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec AMR/8000 fmtp=[octet-align=1] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec AMR-WB/16000 fmtp=[octet-align=1] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec G729/8000 fmtp=[annexb=yes] number=18, default enablement: 1) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec mpeg4-generic/16000 fmtp=[config=F8EE2000; constantDuration=512; indexDeltaLength=3; indexLength=3; mode=AAC-hbr; profile-level-id=76; sizeLength=13; streamType=5] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec mpeg4-generic/22050 fmtp=[config=F8EE2000; constantDuration=512; indexDeltaLength=3; indexLength=3; mode=AAC-hbr; profile-level-id=76; sizeLength=13; streamType=5] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec mpeg4-generic/32000 fmtp=[config=F8E82000; constantDuration=512; indexDeltaLength=3; indexLength=3; mode=AAC-hbr; profile-level-id=76; sizeLength=13; streamType=5] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec mpeg4-generic/44100 fmtp=[config=F8E82000; constantDuration=512; indexDeltaLength=3; indexLength=3; mode=AAC-hbr; profile-level-id=76; sizeLength=13; streamType=5] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:146 [linphone/liblinphone] MESSAGE Codec mpeg4-generic/48000 fmtp=[config=F8EE2000; constantDuration=512; indexDeltaLength=3; indexLength=3; mode=AAC-hbr; profile-level-id=76; sizeLength=13; streamType=5] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec iSAC/16000 fmtp=[] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec speex/32000 fmtp=[vbr=on] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec SILK/8000 fmtp=[] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec SILK/12000 fmtp=[] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec SILK/24000 fmtp=[] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec G726-16/8000 fmtp=[] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec G726-24/8000 fmtp=[] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec G726-32/8000 fmtp=[] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec G726-40/8000 fmtp=[] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec AAL2-G726-16/8000 fmtp=[] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec AAL2-G726-24/8000 fmtp=[] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec AAL2-G726-32/8000 fmtp=[] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec AAL2-G726-40/8000 fmtp=[] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec CODEC2/8000 fmtp=[] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec BV16/8000 fmtp=[] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec AV1/90000 fmtp=[] number=-1, default enablement: 1) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec VP8/90000 fmtp=[] number=-1, default enablement: 1) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec H264/90000 fmtp=[profile-level-id=42801F] number=-1, default enablement: 1) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec H265/90000 fmtp=[] number=-1, default enablement: 1) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec MP4V-ES/90000 fmtp=[profile-level-id=3] number=-1, default enablement: 1) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec H263-1998/90000 fmtp=[CIF=1;QCIF=1] number=-1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec H263/90000 fmtp=[] number=34, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec 1016/8000 fmtp=[] number=1, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec G723/8000 fmtp=[] number=4, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec LPC/8000 fmtp=[] number=7, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec L16/44100 fmtp=[] number=10, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec L16/44100 fmtp=[] number=11, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec CN/8000 fmtp=[] number=13, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec H261/90000 fmtp=[] number=31, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Codec MPV/90000 fmtp=[] number=32, default enablement: 0) added to the list of possible codecs.
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE [vCard] Creating parser using 4.0 grammar (RFC 6350/6358)
+2026-06-03 13:51:03:147 [linphone/bctbx] MESSAGE [BelCard] Loading vCard 4.0 grammar
+2026-06-03 13:51:03:147 [linphone/liblinphone] MESSAGE Created friend list with subscriptions enabled
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Loading ms plugins from [/nix/store/fvkdpg5il6qzajm6xfdgasyqgkb2s637-linphone-desktop-6.1.0/lib/mediastreamer/plugins]
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Loading plugin /nix/store/fvkdpg5il6qzajm6xfdgasyqgkb2s637-linphone-desktop-6.1.0/lib/mediastreamer/plugins/libmsopenh264.so...
+2026-06-03 13:51:03:148 [linphone/bctbx] MESSAGE msopenh264-1.2.1 plugin registered.
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Plugin loaded (libmsopenh264.so)
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Loading plugin /nix/store/fvkdpg5il6qzajm6xfdgasyqgkb2s637-linphone-desktop-6.1.0/lib/mediastreamer/plugins/libmsqogl.so...
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE libmsqogl debug plugin loaded
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Plugin loaded (libmsqogl.so)
+2026-06-03 13:51:03:148 [linphone/liblinphone] MESSAGE linphone_core_set_playback_gain_db(): no active call.
+2026-06-03 13:51:03:148 [linphone/liblinphone] MESSAGE linphone_core_enable_mic(): new state is [enabled], current state is [disabled]
+2026-06-03 13:51:03:148 [linphone/liblinphone] MESSAGE linphone_core_set_mic_gain_db(): no active call.
+2026-06-03 13:51:03:148 [linphone/liblinphone] MESSAGE Sal nat helper [enabled]
+2026-06-03 13:51:03:148 [linphone/liblinphone] MESSAGE Sal use rports [enabled]
+2026-06-03 13:51:03:148 [linphone/liblinphone] MESSAGE MTU is supposed to be 1300, rtp payload max size will be 1240
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for SILK
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for iLBC
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for AMR
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for AMR-WB
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for G729
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for mpeg4-generic
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for mpeg4-generic
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for mpeg4-generic
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for mpeg4-generic
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for mpeg4-generic
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for iSAC
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for SILK
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for SILK
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for SILK
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for G726-16
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for G726-24
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for G726-32
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for G726-40
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for AAL2-G726-16
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for AAL2-G726-24
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for AAL2-G726-32
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for AAL2-G726-40
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for CODEC2
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for BV16
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for 1016
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for G723
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for LPC
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for CN
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for AV1
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for H265
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for MP4V-ES
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for H263-1998
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for H263
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for H261
+2026-06-03 13:51:03:148 [linphone/mediastreamer] MESSAGE Could not find encoder for MPV
+2026-06-03 13:51:03:148 [linphone/liblinphone] MESSAGE Supported codec red/1000 fmtp= automatically added to codec list.
+2026-06-03 13:51:03:148 [linphone/liblinphone] MESSAGE Supported codec t140/1000 fmtp= automatically added to codec list.
+2026-06-03 13:51:03:148 [linphone/liblinphone] MESSAGE Sorting video codec list, new list is:
+2026-06-03 13:51:03:148 [linphone/liblinphone] MESSAGE H264
+2026-06-03 13:51:03:148 [linphone/liblinphone] MESSAGE VP8
+2026-06-03 13:51:03:148 [linphone/liblinphone] MESSAGE Sal use rports [enabled]
+2026-06-03 13:51:03:148 [linphone/belle-sip] MESSAGE belle_sip_stack_set_well_know_port() : set to [5060]
+2026-06-03 13:51:03:148 [linphone/belle-sip] MESSAGE belle_sip_stack_set_well_know_port_tls() : set to [5061]
+2026-06-03 13:51:03:148 [linphone/belle-sip] MESSAGE Root ca path set to /etc/ssl/certs
+2026-06-03 13:51:03:148 [linphone/belle-sip] MESSAGE Root ca path set to /etc/ssl/certs
+2026-06-03 13:51:03:149 [linphone/liblinphone] MESSAGE Account [0x7f9840165890]  ("Phone1002" <sip:1002@172.17.1.4>) created with params
+2026-06-03 13:51:03:149 [linphone/liblinphone] MESSAGE linphoneAccountIsServerConfigChanged : 0
+2026-06-03 13:51:03:149 [linphone/liblinphone] MESSAGE Publish params have changed on Account [0x7f9840165890]  ("Phone1002" <sip:1002@172.17.1.4>)
+2026-06-03 13:51:03:149 [linphone/liblinphone] MESSAGE Invalidating friends maps for list [0x7f9840087bb8]
+2026-06-03 13:51:03:149 [linphone/liblinphone] MESSAGE Switching LinphoneCore [0x7f9840006620] from state LinphoneGlobalOff to LinphoneGlobalReady
+2026-06-03 13:51:03:149 [linphone/liblinphone] MESSAGE Core callbacks [0x7f98400bbb20] registered on core [0x7f9840006620]
+2026-06-03 13:51:03:149 [linphone/liblinphone] MESSAGE Switching LinphoneCore [0x7f9840006620] from state LinphoneGlobalReady to LinphoneGlobalStartup
+2026-06-03 13:51:03:149 [linphone/liblinphone] MESSAGE Loading linphone core plugins from /nix/store/520v95j19iwabmysv9p1igqm6m347sx6-liblinphone-5.4.85//nix/store/520v95j19iwabmysv9p1igqm6m347sx6-liblinphone-5.4.85/lib/liblinphone/plugins
+2026-06-03 13:51:03:149 [linphone/liblinphone] MESSAGE Cannot open directory /nix/store/520v95j19iwabmysv9p1igqm6m347sx6-liblinphone-5.4.85//nix/store/520v95j19iwabmysv9p1igqm6m347sx6-liblinphone-5.4.85/lib/liblinphone/plugins: No such file or directory
+2026-06-03 13:51:03:149 [linphone/liblinphone] MESSAGE [ToneManager] create ToneManager()
+2026-06-03 13:51:03:149 [linphone/liblinphone] MESSAGE Using [/home/kenpachi-zaraki/.local/share/linphone//x3dh.c25519.sqlite3] as lime database path
+2026-06-03 13:51:03:149 [linphone/liblinphone] MESSAGE [LIME] instanciate a LimeX3dhEncryption engine 0x7f9840006230 - default server is [] and default curve [c25519] DB path: /home/kenpachi-zaraki/.local/share/linphone//x3dh.c25519.sqlite3
+2026-06-03 13:51:03:150 [linphone/liblinphone] MESSAGE Using ["/home/kenpachi-zaraki/.local/share/linphone//linphone.db"] as default database path
+2026-06-03 13:51:03:150 [linphone/liblinphone] MESSAGE Opening linphone database "/home/kenpachi-zaraki/.local/share/linphone//linphone.db" with backend Sqlite3
+2026-06-03 13:51:03:151 [linphone/liblinphone] MESSAGE Event table version is 1.0.31
+2026-06-03 13:51:03:151 [linphone/liblinphone] MESSAGE Friends table version is 1.0.1
+2026-06-03 13:51:03:160 [linphone/liblinphone] MESSAGE Beginning loadChatRooms
+2026-06-03 13:51:03:160 [linphone/liblinphone] MESSAGE Start measurement of [Get chat rooms with chunk size -1].
+2026-06-03 13:51:03:161 [linphone/liblinphone] MESSAGE Duration of [Get chat rooms with chunk size -1]: 0ms.
+2026-06-03 13:51:03:161 [linphone/liblinphone] MESSAGE End loadChatRooms
+2026-06-03 13:51:03:161 [linphone/liblinphone] MESSAGE Start measurement of [Get friend lists.].
+2026-06-03 13:51:03:161 [linphone/liblinphone] MESSAGE Created friend list with subscriptions enabled
+2026-06-03 13:51:03:161 [linphone/liblinphone] WARNING Can't save friend list [app_friends] in DB, either Core is not available or database storage is disabled
+2026-06-03 13:51:03:161 [linphone/liblinphone] WARNING Can't save friend list [app_friends] in DB, either Core is not available or database storage is disabled
+2026-06-03 13:51:03:161 [linphone/liblinphone] WARNING Can't save friend list [app_friends] in DB, either Core is not available or database storage is disabled
+2026-06-03 13:51:03:161 [linphone/liblinphone] WARNING Can't save friend list [app_friends] in DB, either Core is not available or database storage is disabled
+2026-06-03 13:51:03:161 [linphone/liblinphone] MESSAGE Created friend list with subscriptions enabled
+2026-06-03 13:51:03:161 [linphone/liblinphone] WARNING Can't save friend list [ldap_friends] in DB, either Core is not available or database storage is disabled
+2026-06-03 13:51:03:161 [linphone/liblinphone] WARNING Can't save friend list [ldap_friends] in DB, either Core is not available or database storage is disabled
+2026-06-03 13:51:03:161 [linphone/liblinphone] WARNING Can't save friend list [ldap_friends] in DB, either Core is not available or database storage is disabled
+2026-06-03 13:51:03:161 [linphone/liblinphone] WARNING Can't save friend list [ldap_friends] in DB, either Core is not available or database storage is disabled
+2026-06-03 13:51:03:161 [linphone/liblinphone] MESSAGE Duration of [Get friend lists.]: 0ms.
+2026-06-03 13:51:03:176 [linphone/liblinphone] MESSAGE Fetched [2] friend lists from DB
+2026-06-03 13:51:03:176 [linphone/liblinphone] MESSAGE Using [/home/kenpachi-zaraki/.local/share/linphone//call-history.db] as legacy call history database path
+2026-06-03 13:51:03:176 [linphone/liblinphone] WARNING nothing to migrate, skipping...
+2026-06-03 13:51:03:176 [linphone/liblinphone] MESSAGE Using [/home/kenpachi-zaraki/.local/share/linphone//zrtp-secrets.db] as default zrtp secrets database path
+2026-06-03 13:51:03:176 [linphone/liblinphone] MESSAGE Using [/home/kenpachi-zaraki/.local/share/linphone//friends.db] as legacy friends database path
+2026-06-03 13:51:03:176 [linphone/liblinphone] MESSAGE Using [/home/kenpachi-zaraki/.local/share/linphone//friends.db] file for friends database
+2026-06-03 13:51:03:177 [linphone/belle-sip] MESSAGE belle_sip_stack_force_name_addr(): forced=0
+2026-06-03 13:51:03:177 [linphone/liblinphone] MESSAGE SIP network reachability state is now [UP]
+2026-06-03 13:51:03:177 [linphone/liblinphone] MESSAGE Media network reachability state is now [UP]
+2026-06-03 13:51:03:177 [linphone/liblinphone] MESSAGE Switching LinphoneCore [0x7f9840006620] from state LinphoneGlobalStartup to LinphoneGlobalConfiguring
+2026-06-03 13:51:03:177 [linphone/liblinphone] MESSAGE Linphone core [0x7f9840006620] notified [global_state_changed]
+2026-06-03 13:51:03:177 [linphone/liblinphone] MESSAGE Linphone core [0x7f9840006620] notified [configuring_status]
+2026-06-03 13:51:03:177 [linphone/liblinphone] MESSAGE Sal::unlistenPorts(): done
+2026-06-03 13:51:03:177 [linphone/belle-sip] MESSAGE Creating listening point [0x7f98401e23e0] on [sip:[::0]:5060;transport=UDP]
+2026-06-03 13:51:03:177 [linphone/belle-sip] MESSAGE Creating listening point [0x7f98401e40d0] on [sip:[::0]:-2;transport=TCP]
+2026-06-03 13:51:03:177 [linphone/belle-sip] MESSAGE Creating listening point [0x7f98401e2060] on [sip:[::0]:-2;transport=TLS]
+2026-06-03 13:51:03:177 [linphone/belle-sip] MESSAGE Root ca path set to /etc/ssl/certs
+2026-06-03 13:51:03:177 [linphone/belle-sip] MESSAGE Root ca path set to /etc/ssl/certs
+2026-06-03 13:51:03:177 [linphone/belle-sip] MESSAGE belle_sip_stack_set_ip_version_preference(): AF_INET6
+2026-06-03 13:51:03:178 [linphone/liblinphone] MESSAGE Switching LinphoneCore [0x7f9840006620] from state LinphoneGlobalConfiguring to LinphoneGlobalOn
+2026-06-03 13:51:03:178 [linphone/liblinphone] MESSAGE Linphone core [0x7f9840006620] notified [global_state_changed]
+2026-06-03 13:51:03:178 [linphone/belle-sip] MESSAGE Root ca path set to /etc/ssl/certs
+2026-06-03 13:51:03:178 [linphone/belle-sip] MESSAGE Root ca path disabled
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Loading ms plugins from [/nix/store/fvkdpg5il6qzajm6xfdgasyqgkb2s637-linphone-desktop-6.1.0/lib/mediastreamer/plugins]
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Loading plugin /nix/store/fvkdpg5il6qzajm6xfdgasyqgkb2s637-linphone-desktop-6.1.0/lib/mediastreamer/plugins/libmsopenh264.so...
+2026-06-03 13:51:03:178 [linphone/bctbx] MESSAGE msopenh264-1.2.1 plugin registered.
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Plugin loaded (libmsopenh264.so)
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Loading plugin /nix/store/fvkdpg5il6qzajm6xfdgasyqgkb2s637-linphone-desktop-6.1.0/lib/mediastreamer/plugins/libmsqogl.so...
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE libmsqogl debug plugin loaded
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Plugin loaded (libmsqogl.so)
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for SILK
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for iLBC
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for AMR
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for AMR-WB
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for G729
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for mpeg4-generic
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for mpeg4-generic
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for mpeg4-generic
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for mpeg4-generic
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for mpeg4-generic
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for iSAC
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for SILK
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for SILK
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for SILK
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for G726-16
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for G726-24
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for G726-32
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for G726-40
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for AAL2-G726-16
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for AAL2-G726-24
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for AAL2-G726-32
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for AAL2-G726-40
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for CODEC2
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for BV16
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for 1016
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for G723
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for LPC
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for CN
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for AV1
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for H265
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for MP4V-ES
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for H263-1998
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for H263
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for H261
+2026-06-03 13:51:03:178 [linphone/mediastreamer] MESSAGE Could not find encoder for MPV
+2026-06-03 13:51:03:178 [linphone/liblinphone] MESSAGE Supported codec red/1000 fmtp= automatically added to codec list.
+2026-06-03 13:51:03:178 [linphone/liblinphone] MESSAGE Supported codec t140/1000 fmtp= automatically added to codec list.
+2026-06-03 13:51:03:178 [linphone/liblinphone] MESSAGE Sorting video codec list, new list is:
+2026-06-03 13:51:03:178 [linphone/liblinphone] MESSAGE H264
+2026-06-03 13:51:03:178 [linphone/liblinphone] MESSAGE VP8

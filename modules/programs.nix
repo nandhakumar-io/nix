@@ -8,6 +8,7 @@
     thunar.enable = true;
     hyprland.enable = true;
     appimage.enable = true;
+    wireshark.enable = true;
 
     nix-ld.enable = true;
   };

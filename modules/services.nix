@@ -26,31 +26,6 @@
     sudo.fprintAuth = true;
   };
 
-  # WireGuard
-  networking.wireguard.enable = true;
-  networking.wireguard.interfaces.wg0 = {
-    ips = [ "10.10.1.42/32" ];
-    privateKeyFile = "/etc/wireguard/privatekey-wg0";
-
-    peers = [
-      {
-        publicKey = "gXYY+irkG9x+7sZhjuF0od/fj0LdqqD9bKvZl5H1yC4=";
-        allowedIPs = [
-          "172.16.1.0/24"
-          "172.17.1.0/24"
-          "172.17.18.0/24"
-          "192.168.50.0/24"
-        ];
-        endpoint = "10.10.15.193:51820";
-      }
-    ];
-  };
-
-    # Enable Bluetooth GUI 
-    #services.blueman.enable = true;
-
-  networking.firewall.allowedUDPPorts = [ 51820 ];
-
   # Docker & VM
   virtualisation.docker.enable = true;
   virtualisation.libvirtd.enable = true;
