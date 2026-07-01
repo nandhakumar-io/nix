@@ -4,12 +4,12 @@
   services = {
     openssh = {
       enable = true;
-      ports = [ 2222 ];
+      ports = [ 22 ];
       openFirewall = true;
 
       settings = {
-        PermitRootLogin = "no";
-        PasswordAuthentication = false;
+        PermitRootLogin = "yes";
+        PasswordAuthentication = true;
       };
     };
 

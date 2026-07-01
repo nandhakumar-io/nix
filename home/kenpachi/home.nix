@@ -20,6 +20,10 @@
   freetype
   fontconfig
 ];
+home.sessionPath = [
+  "$HOME/openldap/bin"
+  "$HOME/openldap/libexec"
+];
 
   programs.zsh.enable = true;
 

@@ -8,6 +8,7 @@
         # Required libraries for pygame
         samba
         wakeonlan
+	smbclient-ng
         zlib
         SDL2
         SDL2_image
@@ -28,6 +29,7 @@
         wireguard-tools
         bat
         eza
+        chromium
         git 
         fd 
         cliphist
@@ -82,9 +84,12 @@
         vlc 
         vscode
         jdk
-	    linphone
+	linphone
         jetbrains.idea-oss
         spotify
+        dnsmasq
+        inetutils
+	openiscsi
         ];
 
     }

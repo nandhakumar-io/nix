@@ -2,7 +2,7 @@
     users.users."kenpachi-zaraki" = {
         isNormalUser =  true;
         description  ="kenpachi-Zaraki";
-        extraGroups = [ "networkmanager" "wheel" "docker" "wireshark"];
+        extraGroups = [ "networkmanager" "wheel" "docker" "wireshark" "libvirtd"];
         packages = with pkgs; [
             kdePackages.kate 
 
@@ -14,7 +14,7 @@
     users.users.nandha = {
         isNormalUser= true;
         description = "nandhakumar";
-        extraGroups = [ "wheel" "docker" "wireshark" ];
+        extraGroups = [ "wheel" "docker" "wireshark" "libvirtd"];
         packages = with pkgs; [
         kdePackages.kate 
         ];
