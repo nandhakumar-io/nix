@@ -19,12 +19,17 @@
     blueman.enable = true;
     nfs.server.enable = true;
     printing.enable = true;
+    openiscsi = {
+  	enable = true;
+  	name = "iqn.2026-07.in.notoriousdev:asusvivobooks15";
+};
   };
 
   security.pam.services = {
     login.fprintAuth = true;
     sudo.fprintAuth = true;
   };
+
 
   # Docker & VM
   virtualisation.docker.enable = true;
