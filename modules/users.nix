@@ -2,7 +2,7 @@
     users.users."kenpachi-zaraki" = {
         isNormalUser =  true;
         description  ="kenpachi-Zaraki";
-        extraGroups = [ "networkmanager" "wheel" "docker" "wireshark" "libvirtd "root"];
+        extraGroups = [ "networkmanager" "wheel" "docker" "wireshark" "libvirtd" "root"];
         packages = with pkgs; [
             kdePackages.kate 
 

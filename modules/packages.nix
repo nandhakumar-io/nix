@@ -2,11 +2,13 @@
 
 {
     environment.systemPackages = with pkgs; [
-         python313
+         python313Packages.pip
         python313Packages.pygame
+        stdenv.cc.cc.lib
 
         # Required libraries for pygame
         samba
+        openssl
         wakeonlan
 	smbclient-ng
         zlib
@@ -30,7 +32,8 @@
         bat
         eza
         chromium
-        git 
+        git
+        git-filter-repo
         fd 
         cliphist
         libnotify
@@ -90,6 +93,8 @@
         dnsmasq
         inetutils
 	openiscsi
+	zip
+	nmap
         ];
 
     }
